@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+h1,h4{
+text-align: center;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto; /* 左右のマージンを自動で均等に設定 */
+}
+
+.subcontainer {
+	max-width: 800px;
+	margin: 0 auto; /* 左右のマージンを自動で均等に設定 */	
+}
+
+.item{
+	margin-left: 10px;
+}
+
+form label {
+	margin-left: 10px;
+}
+
+form label,form a.item{
+    font-size: 20px; /* 好みの文字サイズに変更 */
+}
+
+.example2 a{
+    display: block;
+    padding: 10px;
+    border: 1px solid #999;
+    color: #333;
+    width: 200px;
+    /*コレ*/margin: auto;
+    text-align: center;
+}
+.example2{
+    padding: 10px;
+    margin-top:10px;
+}
+
+.large-button {
+  width: 200px; /* 幅を指定 */
+  height: 50px; /* 高さを指定 */
+}
